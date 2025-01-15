@@ -1,4 +1,4 @@
-import tkinter as tk
+import tkinter as tk 
 from tkinter import messagebox
 import re  # Para las expresiones regulares
 
@@ -166,24 +166,21 @@ label_nombre = tk.Label(ventana, text="Nombre:", font=fuente_etiquetas, bg="#FFB
 label_nombre.grid(row=0, column=0, padx=10, pady=5, sticky="e")
 entry_nombre = tk.Entry(ventana, width=30, font=fuente_campos, fg="#003366")
 entry_nombre.grid(row=0, column=1, padx=10, pady=5)
-entry_nombre.insert(0, "+34")  # Teléfono predeterminado
 
 label_apellidos = tk.Label(ventana, text="Apellidos:", font=fuente_etiquetas, bg="#FFB3B3", fg="black")
 label_apellidos.grid(row=1, column=0, padx=10, pady=5, sticky="e")
 entry_apellidos = tk.Entry(ventana, width=30, font=fuente_campos, fg="#003366")
 entry_apellidos.grid(row=1, column=1, padx=10, pady=5)
 
-label_telefono = tk.Label(ventana, text="Teléfono (+34):", font=fuente_etiquetas, bg="#FFB3B3", fg="black")
+label_telefono = tk.Label(ventana, text="Teléfono:", font=fuente_etiquetas, bg="#FFB3B3", fg="black")
 label_telefono.grid(row=2, column=0, padx=10, pady=5, sticky="e")
 entry_telefono = tk.Entry(ventana, width=30, font=fuente_campos, fg="#003366")
 entry_telefono.grid(row=2, column=1, padx=10, pady=5)
-entry_telefono.insert(0, "+34")  # Teléfono predeterminado
 
-label_correo = tk.Label(ventana, text="Correo (@gmail.com):", font=fuente_etiquetas, bg="#FFB3B3", fg="black")
+label_correo = tk.Label(ventana, text="Correo:", font=fuente_etiquetas, bg="#FFB3B3", fg="black")
 label_correo.grid(row=3, column=0, padx=10, pady=5, sticky="e")
 entry_correo = tk.Entry(ventana, width=30, font=fuente_campos, fg="#003366")
 entry_correo.grid(row=3, column=1, padx=10, pady=5)
-entry_correo.insert(0, "@gmail.com")  # Correo predeterminado
 
 label_direccion = tk.Label(ventana, text="Dirección:", font=fuente_etiquetas, bg="#FFB3B3", fg="black")
 label_direccion.grid(row=4, column=0, padx=10, pady=5, sticky="e")
