@@ -193,3 +193,4 @@ label_info.grid(row=10, column=0, columnspan=2, pady=10)
 
 # Iniciar la interfaz
 ventana.mainloop()
+     
