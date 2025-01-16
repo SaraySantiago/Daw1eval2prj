@@ -63,3 +63,7 @@ Los botones del teclado no funcionan así que eso no lo podemos devolver, ademá
 De esta forma la agenda de contactos estaría finalizada, pero si queremos hacer más podríamos pedirle datos adicionales cómo que nos deje organizarlo.
 
 13P Ahora añade que se puedan organizar los contactos en “Amigos”, “Familiares” o “Otros” y que en otros se pueda especificar que son.
+
+Genial, funciona correctamente pero nos damos cuenta que nos deja escribir en especificar a pesar de que elegimos Amigos o familiares, vamos a intentar hacer que ese campo nos salga únicamente cuando seleccionamos otros, podríamos hacer que salga en ventana emergente. 
+
+14P Haz que el campo para especificar sea una ventana emergente que salga únicamente cuando seleccionemos otros, además, haz que sea obligatoria de rellenar una vez seleccionado otros.
