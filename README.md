@@ -67,3 +67,9 @@ De esta forma la agenda de contactos estaría finalizada, pero si queremos hacer
 Genial, funciona correctamente pero nos damos cuenta que nos deja escribir en especificar a pesar de que elegimos Amigos o familiares, vamos a intentar hacer que ese campo nos salga únicamente cuando seleccionamos otros, podríamos hacer que salga en ventana emergente. 
 
 14P Haz que el campo para especificar sea una ventana emergente que salga únicamente cuando seleccionemos otros, además, haz que sea obligatoria de rellenar una vez seleccionado otros.
+
+Vamos a editar, esto ya por gusto, el mensaje que está en el campo de especificar, le pediremos que ponga (si eliges otros) en vez de (si aplica).
+
+15P Haz que el campo de Especificar en vez de poner (si aplica) ponga (si eliges Otros).
+
+Aunque ahora lo tengamos editado, no sale la ventana que salía antes. Sin embargo, la ventana no hacía correctamente su función. Así que está será mi versión final.
